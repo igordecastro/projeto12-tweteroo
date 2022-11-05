@@ -1,0 +1,19 @@
+{
+  "name": "projeto12-tweteroo",
+  "version": "1.0.0",
+  "description": "app for quick messages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "Igor de Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
