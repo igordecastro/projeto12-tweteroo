@@ -43,4 +43,11 @@ app.post("/tweets", (req, res) => {
     console.log(serverUsers)
 })
 
+app.get("/tweets", (req, res) => {
+    const data = []
+    for(let i = tweets.length -1; i >= tweets.length -11; i--) {
+        data.push([...tweets[i], ])
+    }
+})
+
 app.listen(5000, ()=> console.log("App running in port 5000"))
